@@ -1,0 +1,2 @@
+Query Selector: The Query Selector applies all attributes to 
+class name it has been encountered first.
