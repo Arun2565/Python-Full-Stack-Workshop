@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <div id="abc" style="width: 100px; height: 100px; background-color: lightblue;"></div>
+    <br><br>
+    <p id="para">Hello </p>
+    <button id="clickMe">Click Me</button>
+    <script> 
+        let a =document.getElementById("para");
+        a.addEventListener("dblclick",function(){
+            a.style.backgroundColor="lightgreen";
+            a.innerHTML="Double Clicked";
+            a.style.backgroundColor==="lightgreen"?'green':"lightgreen";
+        })
+    </script>
+</body>
+
+</html>
